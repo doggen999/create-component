@@ -1,0 +1,23 @@
+{
+  "name": "create-component",
+  "version": "0.9.0",
+  "description": "Creating boilerplate component with files for tests, styling and (Storybook) stories",
+  "keywords": [
+    "create component",
+    "boilerplate",
+    "boilerplate generator",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doggen999/create-component.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "create-component": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natan Williams (@doggen999)"
+}
