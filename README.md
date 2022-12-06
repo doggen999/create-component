@@ -4,7 +4,17 @@ Boiler plate generator for a given React project structure.
 
 ## tl;dr
 
-`npx create-component [nameOfComponent]`
+`npx create-component [nameOfComponent]` creates the folling boiler plate files.
+
+```
+⌙ src
+   ⌙ components
+      ⌙ NameOfComponent
+        ⌙ NameOfComponent.js
+        ⌙ NameOfComponent.module.scss
+        ⌙ NameOfComponent.stories.js
+        ⌙ index.js
+```
 
 # Component generation
 
