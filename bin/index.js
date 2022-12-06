@@ -1,4 +1,7 @@
 #! /usr/bin/env node
+
+"use strict";
+
 const fs = require("fs");
 const path = require("path");
 
@@ -25,7 +28,7 @@ const componentDir = path.resolve(
 );
 
 if (fs.existsSync(componentDir)) {
-  return console.error("Folder already exists. Exiting. ");
+  return console.error(`"Folder '${componentDir}' already exists. Exiting. "`);
 }
 
 fs.mkdirSync(componentDir, { recursive: true });
@@ -40,4 +43,4 @@ componentFileGenerator.generate(componentName, componentFile);
 styleFileGenerator.generate(componentName, styleFile);
 storyFileGenerator.generate(componentName, storyFile);
 
-console.log(`${componentName} is generated`);
+console.log(`${componentName} is generated in ${componentDir}`);
