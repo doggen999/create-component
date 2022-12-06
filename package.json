@@ -1,6 +1,6 @@
 {
   "name": "crc-react",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Creating boilerplate component with files for tests, styling and (Storybook) stories",
   "keywords": [
     "create component",
